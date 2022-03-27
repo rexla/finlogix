@@ -30,7 +30,7 @@ const Container = styled.div`
     border: 1px solid #D6D6D6;
     border-radius: 4px;
     color: #01254F;
-    margin-right: 10px;
+    margin: 10px 10px;
 `
 
 const Textbox = styled.div`

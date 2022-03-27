@@ -111,7 +111,7 @@ const Main = styled.div`
   align-items: center;
   text-align: center;
   height: 520px;
-  padding-top: 240px;
+  padding-top: 150px;
   h1 {
     color: #01254F;
     font-size: 28px;

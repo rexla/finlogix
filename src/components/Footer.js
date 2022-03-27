@@ -97,6 +97,9 @@ const Container = styled.div`
 
 const Info = styled.div`
     margin: 70px 150px;
+    img {
+        cursor: pointer;
+    }
     h3 {
         margin: 50px 0;
     }

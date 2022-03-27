@@ -72,7 +72,7 @@ const Container = styled.div`
 const Wrap = styled.div`
     box-sizing: border-box;
     background: #F2F2F2;
-    height: 48.75rem;
+    // height: 100vh;
     display: flex;
     flex-wrap: wrap;
     padding: 80px 350px;
