@@ -6,7 +6,14 @@ function Header() {
     <Container>
       <TopDiv>
         <Menu>
-          JSD WTI SP500 EUR/USD USD/JPY GBP/AUD
+          <div>
+            JSD WTI SP500 EUR/USD USD/JPY GBP/AUD
+          </div>
+          <div>
+            <select>
+              <option>EN</option>
+            </select>
+          </div>
         </Menu>
         <MenuDown>
           <img src="/images/logo.svg" />
@@ -56,8 +63,16 @@ const Menu = styled.div`
   height: 40px;
   background: #F2F2F2;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
   flex: 1;
+  select {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #01254F;
+    background: #F2F2F2;
+  }
 `
 
 const MenuDown = styled.div`
